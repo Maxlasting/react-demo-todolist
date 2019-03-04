@@ -152,3 +152,21 @@ ol, ul, li {
     margin-top: 10px;
   }
 }
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active, .fade-enter-done {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active, .fade-exit-done {
+  opacity: 0;
+  transition: opacity 500ms;
+}

@@ -44,6 +44,7 @@
     "webpackbar": "^3.1.5"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-transition-group": "^2.6.0"
